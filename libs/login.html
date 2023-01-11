@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Личный Кабинет Инет-Телеком</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <section class="authorization">
-        <p class="authorization_text">
-            Войдите в личный кабинет.
-        </p>
-        <div class="authorization_inputs">
-            <form class="authorization_form" action="">
-                <input class="authorization_input" name="login" type="text" placeholder="Логин">
-                <input class="authorization_input" name="password" type="password" placeholder="Пароль">
-            </form>
-        </div> 
-        <button class="authorization_button">
-            Вход
-        </button>
-        <p class="authorization_copyright">
-            © 2009-2022 <br>
-            Компания "Инет-Телеком"
-        </p>
+      <div class="form_wrapper">
+        <p class="authorization_text">Войдите в личный кабинет.</p>
+        <form class="authorization_form" action="" method="post">
+          <div class="authorization_inputs">
+            <input
+              class="authorization_input"
+              name="login"
+              type="text"
+              placeholder="Логин"
+            />
+            <input
+              class="authorization_input"
+              name="password"
+              type="password"
+              placeholder="Пароль"
+            />
+            <button class="authorization_button" type="submit">Вход</button>
+          </div>
+        </form>
+      </div>
+      <p class="authorization_copyright">
+        © 2009-2022 <br />
+        Компания "Инет-Телеком"
+      </p>
     </section>
-
-</body>
+  </body>
 </html>

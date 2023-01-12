@@ -126,14 +126,29 @@ body {
     line-height: 29px;
 }
 
+
 .navigation {
-    display: flex;
+    width: 27%;
+    position: fixed;
+    top: 0;
+    left: 0;
     flex-direction: column;
-    width: 375px;
+    justify-content: space-between;
+    z-index: -1;
+    padding-right: 10px;
     height: 100vh;
     background-color: #FFA800;
     font-family: 'Montserrat', Arial, sans-serif;
+    display: flex;
+    opacity: 0;
+    transition: all .5s ease-in-out;
 }
+
+.navigation.active {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
 
 .navigation__toggle {
     width: 58px;
@@ -142,8 +157,13 @@ body {
     border: none;
     padding: 10px;
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.navigation__toggle.active  {
+    background: url("./img/crossmenu.svg") no-repeat top left;
     transform: rotate(45deg);
-    
+    transition: all .2s ease-in-out;
 }
 
 .navigation__list {
@@ -175,13 +195,8 @@ body {
     padding: 10px;
 }
 
-.not-active {
-    display: none;
-}
 
-.navigation__toggle-not-active  {
-    background: url("./img/crossmenu.svg") no-repeat top left;
-}
+
 
 
 

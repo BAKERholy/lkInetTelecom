@@ -125,3 +125,64 @@ body {
     font-size: 24px;
     line-height: 29px;
 }
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 100vh;
+    background-color: #FFA800;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.navigation__toggle {
+    width: 58px;
+    height: 54px;
+    background: url("./img/buttonbrg.svg") no-repeat top left;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transform: rotate(45deg);
+    
+}
+
+.navigation__list {
+    padding: 15%;
+}
+
+.navigation-list__item {
+  list-style: none;
+  padding: 10px;
+}
+
+.navigation-list__link {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.navigation_copyright {
+    position: absolute;
+    bottom: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding: 10px;
+}
+
+.not-active {
+    display: none;
+}
+
+.navigation__toggle-not-active  {
+    background: url("./img/crossmenu.svg") no-repeat top left;
+}
+
+
+
+

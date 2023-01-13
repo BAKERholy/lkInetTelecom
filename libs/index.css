@@ -122,7 +122,7 @@ body {
 }
 
 .navigation {
-  width: 27%;
+  width: 24%;
   position: fixed;
   top: 0;
   left: 0;
@@ -133,8 +133,8 @@ body {
   height: 100vh;
   background-color: #ffa800;
   font-family: "Montserrat", Arial, sans-serif;
-  display: flex;
   opacity: 0;
+  box-shadow: 6px 0px 6px 6px rgba(107, 72, 203, 0.25);
   transition: all 0.5s ease-in-out;
 }
 
@@ -150,13 +150,25 @@ body {
   border: none;
   padding: 10px;
   cursor: pointer;
+  position: absolute;
+  top: 1%;
   transition: all 0.2s ease-in-out;
+
 }
 
 .navigation__toggle.active {
   background: url("./img/crossmenu.svg") no-repeat top left;
   transform: rotate(45deg);
   transition: all 0.2s ease-in-out;
+  
+}
+
+.navigation_text {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    padding-left: 25%;
 }
 
 .navigation__list {
@@ -187,3 +199,39 @@ body {
   text-align: center;
   padding: 10px;
 }
+
+.tarif {
+  width: 510px;
+  height: 473px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #FFA800;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  box-shadow: 6px 6px 6px 6px #6E49C7;
+  border-radius: 20px;
+  font-family: "Montserrat", Arial, sans-serif;
+
+}
+
+.tarif_block-phone {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.tarif_block-phone a {
+  color: black;
+}
+
+.tarif_block-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+

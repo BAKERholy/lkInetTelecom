@@ -222,16 +222,70 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
-}
-
-.tarif_block-phone a {
   color: black;
+
 }
 
-.tarif_block-inputs {
+
+.tarif_block-balance {
+  width: 340px;
+  height: 76px;
+  background-color: #6B48CB;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin-left: 80px;
+  position: relative;
+  margin-top: 10px;
 }
+
+.tarif_block-balance p {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.tarif_block-balance::after {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: -30px;
+  width: 55px;
+  height: 55px;
+  background: #7EF10A;
+  border: 6px solid rgba(98, 167, 29, 0.6);
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+.tarif_block-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarif_block-info-text {
+  margin: 3%;
+}
+
+.tarif_block-info-right {
+  background-color: white;
+  width: 190px;
+  height: 70px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
 
 

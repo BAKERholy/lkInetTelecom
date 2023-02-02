@@ -1,7 +1,9 @@
 .container {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   position: relative;
+  font-family: "Montserrat", Arial, sans-serif;
+  height: 100vh
 }
 
 .authorization {
@@ -15,7 +17,6 @@
   width: 100%;
   height: 100vh;
   text-align: center;
-  font-family: "Montserrat", Arial, sans-serif;
 }
 
 .form_wrapper::before {
@@ -167,7 +168,6 @@
 }
 
 .navigation_text {
-    font-family: "Montserrat", Arial, sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
@@ -217,7 +217,6 @@
   right: 10px;
   box-shadow: 6px 6px 6px 6px #6E49C7;
   border-radius: 20px;
-  font-family: "Montserrat", Arial, sans-serif;
 
 }
 
@@ -293,8 +292,48 @@
   align-items: center;
 }
 
+.home_text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 30px;
+}
+
+.home_id {
+  width: 220px;
+  height: 75px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 80px auto;
+  align-items: center;
+}
+
+.home_id p {
+  padding: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+}
+
+.home_buttons {
+  margin: 90px auto;
+  padding: 10px;
+}
+
+.home_link {
+  width: 400px;
+  height: 160px;
+  background-color: white;
+}
+
+
+
 .slide {
   position: absolute;
+  bottom: 10%;
+  right: 50%;
   width: 300px;
   height: 300px;
   object-fit: contain;
@@ -308,10 +347,7 @@
 }
 
 .slide img {
-  width: 300px;
-  height: 300px;
   object-fit: contain;
-  
 }
 
 .showing {
@@ -320,7 +356,6 @@
 }
 
 .slide__block {
-  position: absolute;
   padding-top: 15px;
   width: 100%;
   display: flex;

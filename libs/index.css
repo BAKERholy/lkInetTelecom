@@ -31,10 +31,13 @@ body {
 
 .full-screen {
   width: 100vw;
+  height: 100vh;
+}
+
+.full-content {
   height: 100%;
   padding-bottom: 10%;
 }
-
 
 .tarif {
   width: 28%;
@@ -43,12 +46,12 @@ body {
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  background-color: #FFA800;
+  background-color: #ffa800;
   position: absolute;
   z-index: 3;
   top: 3%;
   right: 1%;
-  box-shadow: 6px 6px 6px 6px #6E49C7;
+  box-shadow: 6px 6px 6px 6px #6e49c7;
   border-radius: 20px;
   padding: 15px;
 }
@@ -59,15 +62,13 @@ body {
   font-size: 24px;
   line-height: 29px;
   color: black;
-
 }
-
 
 .tarif_block-balance {
   min-width: 340px;
   padding: 10px;
   height: 76px;
-  background-color: #6B48CB;
+  background-color: #6b48cb;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -92,7 +93,7 @@ body {
   right: 8%;
   width: 55px;
   height: 55px;
-  background: #7EF10A;
+  background: #7ef10a;
   border: 6px solid rgba(98, 167, 29, 0.6);
   box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
@@ -160,8 +161,6 @@ body {
   background-color: white;
 }
 
-
-
 .slide {
   position: absolute;
   bottom: 10%;
@@ -204,21 +203,8 @@ body {
   align-items: center;
 }
 
-
 .slide.active img {
   width: 300px;
   height: 300px;
   object-fit: contain;
 }
-
-
-
-
-
-
-
-
-
-
-
-

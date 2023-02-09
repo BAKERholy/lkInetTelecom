@@ -278,7 +278,7 @@ p {
   height: 300px;
   object-fit: contain;
 }
-
+  
 .modal-wrapper {
   display: none;
   z-index: -1;
@@ -336,3 +336,64 @@ p {
   z-index: -1;
   background-color: rgba(0, 0, 0, 40%);
 }
+
+
+@media screen and (max-width: 576px) {
+  .full-screen {
+    height: 100%;
+    padding: 10%;
+  }
+
+  .full-screen::after {
+    display: none;
+  }
+
+  .content {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .tarif {
+    position: unset;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  .tarif_block-balance {
+    margin: 10px auto;
+    min-width: 100px;
+    width: 60%;
+    height: 50px;
+  }
+
+  .tarif_block-balance p {
+    font-size: 16px;
+  }
+
+  .tarif_block-text {
+    font-size: 16px;
+  }
+
+  .tarif_block-right {
+    font-size: 16px;
+    line-height: 10px;
+    min-width: 155px;
+  }
+
+  .home_buttons {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  }
+
+  .home_link {
+    margin-bottom: 20px;
+  }
+
+  .slider {
+    display: none;
+  }

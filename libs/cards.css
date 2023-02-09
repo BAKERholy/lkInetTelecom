@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.payments_title {
+  padding-top: 40px;
+}
+
 .cards_links {
   display: flex;
   flex-wrap: wrap;
@@ -12,10 +16,12 @@
   padding-left: 20%;
   justify-content: center;
   padding-right: 20%;
+  
 }
 
 .cards_links a {
   display: block;
+  padding-top: 40px;
 }
 
 .card {
@@ -24,45 +30,9 @@
   background-color: white;
   border: 3px solid rgba(107, 72, 203, 0.6);
   border-radius: 20px;
-}
-
-.detailing {
-  margin-top: 20%;
-  padding: 0 20%;
-}
-
-.table {
-  width: 100%;
-  border: 1px solid transparent;
-  border-radius: 3px;
-  max-height: 500px;
-  overflow-y: auto;
-}
-
-.table-row {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.table-cell {
-  flex: auto;
-  text-align: center;
-  padding: 10px 5px;
-  max-width: 221px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
 
-.table-header .table-cell {
-  background-color: #6b48cb;
-  color: #fff;
-}
-
-.table-body .table-cell {
-  outline: 2px solid #6b48cb;
-  outline-offset: -2px;
-  border-radius: 3px;
-  background-color: #fff;
-}

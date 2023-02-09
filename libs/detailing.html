@@ -45,7 +45,7 @@
             <a class="navigation-list__link" href="./history.html"> История </a>
           </li>
           <li class="navigation-list__item">
-            <a class="navigation-list__link" href="#"> Выход </a>
+            <a class="navigation-list__link show-modal" href="#"> Выход </a>
           </li>
         </ul>
         <p class="navigation_copyright">
@@ -99,7 +99,9 @@
             <a href="" id="tab-3" class="main-button">Контроль трафика</a>
           </div>
           <section id="table-1" class="wrapper-tabel">
-            <div class="detailing-title">Детализация платежей</div>
+            <div class="detailing-title">
+              Детализация платежей <a class="back-link">Назад</a>
+            </div>
             <div class="table">
               <div class="table-header">
                 <div class="table-row">
@@ -204,7 +206,9 @@
             </div>
           </section>
           <section id="table-2" class="wrapper-tabel">
-            <div class="detailing-title">Детализация оказанных услуг</div>
+            <div class="detailing-title">
+              Детализация оказанных услуг<a class="back-link">Назад</a>
+            </div>
             <div class="table">
               <div class="table-header">
                 <div class="table-row">
@@ -309,7 +313,9 @@
             </div>
           </section>
           <section id="table-3" class="wrapper-tabel">
-            <div class="detailing-title">Детализация оказанных услуг</div>
+            <div class="detailing-title">
+              Детализация оказанных услуг<a class="back-link">Назад</a>
+            </div>
             <div class="table">
               <div class="table-header">
                 <div class="table-row">
@@ -416,6 +422,17 @@
         </section>
       </div>
     </div>
+    <div class="backdrop"></div>
+    <div class="modal-wrapper">
+      <div class="modal">
+        <div class="modal-title">Вы действительно хотите выйти?</div>
+        <div class="modal-button">
+          <button class="main-button">Да</button
+          ><button class="main-button close-modal-button">Нет</button>
+        </div>
+      </div>
+    </div>
     <script src="./index.js"></script>
+    <script src="./table.js"></script>
   </body>
 </html>

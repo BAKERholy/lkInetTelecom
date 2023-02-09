@@ -17,7 +17,7 @@
     />
   </head>
   <body>
-    <div class="bg-color full-screen">
+    <div class="bg-color full-content">
       <header class="header-main">
         <button class="navigation__toggle" type="button"></button>
       </header>
@@ -55,24 +55,35 @@
         </p>
       </nav>
       <section class="tarif">
-        <a class="tarif_block-phone" href="tel:+74950854501"
-          >+7(495)085-45-01</a
-        >
-        <div class="tarif_block-balance">
-          <p>Баланс:</p>
-          <p>690,00 ₽</p>
+        <div class="tarif_block">
+          <a class="tarif_block-phone" href="tel:+74950854501"
+            >+7(495)085-45-01</a
+          >
+          <div class="tarif_block-balance">
+            <p>Баланс:</p>
+            <p>690,00 ₽</p>
+          </div>
+          <div class="tarif_block-info">
+            <p class="tarif_block-text">Ваш тариф:</p>
+            <p class="tarif_block-right">Базовый</p>
+          </div>
+          <div class="tarif_block-info">
+            <p class="tarif_block-text">
+              Абонентская<br />
+              плата:
+            </p>
+            <p class="tarif_block-right">690,00 ₽</p>
+          </div>
+          <div class="tarif_block-info">
+            <p class="tarif_block-text">
+              Добровальная<br />
+              блокировка:
+            </p>
+            <button class="tarif_block-right tarif_block-button">
+              Блокировать
+            </button>
+          </div>
         </div>
-        <div class="tarif_block-info">
-          <p class="tarif_block-text">Ваш тариф:</p>
-          <p class="tarif_block-right">Базовый</p>
-        </div>
-        <div class="tarif_block-info">
-          <p class="tarif_block-text">Абонентская плата:</p>
-          <p class="tarif_block-right">690,00 ₽</p>
-        </div>
-        <div class="tarif_block-blocking"></div>
-        <p class="tarif_block-blocking-text">Добровальная блокировка</p>
-        <button class="tarif_block-button">Блокировать</button>
       </section>
       <div class="container">
         <section class="home">
@@ -81,12 +92,12 @@
             <p>ID:56462</p>
           </div>
         </section>
-        <section class="content">
-          <section class="contact">
-            <h3 class="contact_title">Контактные данные:</h3>
-            <div class="contact_container">
+        <section class="content settings">
+          <section class="form-wrapper">
+            <h3 class="form-title">Контактные данные:</h3>
+            <div class="">
               <form action="">
-                <div class="contact_email">
+                <div class="form-input">
                   <label class="main-label" for="">Электронная почта:</label>
                   <input
                     class="main-input"
@@ -96,7 +107,7 @@
                     placeholder="email"
                   />
                 </div>
-                <div class="contact_tel">
+                <div class="form-input">
                   <label class="main-label" for="">Номер телефона:</label>
                   <input
                     type="number"
@@ -106,8 +117,8 @@
                     placeholder="+7(___)-___-__-__"
                   />
                 </div>
-                <div class="contact_inputs">
-                  <p class="contact_text">Email уведомления:</p>
+                <div class="form-radios">
+                  <p class="radio-text">Email уведомления:</p>
                   <div class="contact_input-btn">
                     <input
                       id="radio-1"
@@ -127,11 +138,11 @@
               </form>
             </div>
           </section>
-          <section class="access">
-            <div class="access_container">
-              <h3 class="access_title">Параметры доступа:</h3>
+          <section class="">
+            <div class="form-wrapper">
+              <h3 class="form-title">Параметры доступа:</h3>
               <form action="">
-                <div class="access_last-password">
+                <div class="form-input">
                   <label class="main-label" for="">Старый пароль:</label>
                   <input
                     type="text"
@@ -141,7 +152,7 @@
                     placeholder="Введите пароль"
                   />
                 </div>
-                <div class="acess_new-password">
+                <div class="form-input">
                   <label class="main-label" for="">Новый пароль:</label>
                   <input
                     type="text"
@@ -151,7 +162,7 @@
                     placeholder="Введите пароль"
                   />
                 </div>
-                <div class="access_password-confirm">
+                <div class="form-input">
                   <label class="main-label" for="">Подтвердить пароль:</label>
                   <input
                     type="text"
@@ -161,8 +172,8 @@
                     placeholder="Введите пароль"
                   />
                 </div>
-                <div class="access_inputs">
-                  <p class="">Доступ с любых IP:</p>
+                <div class="form-radios">
+                  <p class="radio-text">Доступ с любых IP:</p>
                   <div class="access_input-btn">
                     <input
                       id="radio-3"

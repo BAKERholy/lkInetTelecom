@@ -278,6 +278,65 @@ p {
   height: 300px;
   object-fit: contain;
 }
+  
+.modal-wrapper {
+  display: none;
+  z-index: -1;
+}
+
+.modal-wrapper.active {
+  z-index: 6;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 25%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffa800;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
+.modal-title {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.modal-button {
+  margin-top: 15px;
+  width: 50%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.backdrop.active {
+  display: block;
+  z-index: 4;
+  overflow: hidden;
+}
+
+.backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 40%);
+}
+
 
 @media screen and (max-width: 576px) {
   .full-screen {
@@ -338,4 +397,3 @@ p {
   .slider {
     display: none;
   }
-}

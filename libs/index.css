@@ -278,7 +278,7 @@ p {
   height: 300px;
   object-fit: contain;
 }
-  
+
 .modal-wrapper {
   display: none;
   z-index: -1;
@@ -336,7 +336,6 @@ p {
   z-index: -1;
   background-color: rgba(0, 0, 0, 40%);
 }
-
 
 @media screen and (max-width: 576px) {
   .full-screen {
@@ -397,3 +396,4 @@ p {
   .slider {
     display: none;
   }
+}

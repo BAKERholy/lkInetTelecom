@@ -1,0 +1,40 @@
+.detailing {
+    margin-top: 20%;
+    padding: 0 20%;
+  }
+  
+  .table {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .table-cell {
+    flex: auto;
+    text-align: center;
+    padding: 10px 5px;
+    max-width: 221px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .table-header .table-cell {
+    background-color: #6b48cb;
+    color: #fff;
+  }
+  
+  .table-body .table-cell {
+    outline: 2px solid #6b48cb;
+    outline-offset: -2px;
+    border-radius: 3px;
+    background-color: #fff;
+  }

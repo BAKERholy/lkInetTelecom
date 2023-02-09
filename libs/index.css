@@ -21,6 +21,12 @@ p {
   margin: 0 auto;
 }
 
+.content.settings {
+  max-width: 930px;
+  margin: 0;
+  margin-left: 4%;
+}
+
 .bg-color {
   background-color: #ffa800;
   background-image: url("./img/pngwing\ 1.svg");

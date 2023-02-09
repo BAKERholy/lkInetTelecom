@@ -1,5 +1,5 @@
 .navigation {
-  width: 24%;
+  width: 16%;
   position: fixed;
   top: 0;
   left: 0;
@@ -41,7 +41,7 @@
 
 .navigation_text {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 29px;
   padding-left: 25%;
   padding-top: 30px;
@@ -61,7 +61,7 @@
   color: black;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 29px;
 }
 
@@ -70,7 +70,7 @@
   bottom: 0;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 29px;
   text-align: center;
   padding: 10px;

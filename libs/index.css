@@ -353,6 +353,9 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+  .d-none-sm {
+    display: none;
+  }
   .full-screen {
     height: 100%;
     padding: 10%;

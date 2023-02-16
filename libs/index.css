@@ -411,4 +411,15 @@ img {
   .slider {
     display: none;
   }
+
+  .modal {
+    width: 75%;
+  }
+  .modal-title {
+    text-align: center;
+  }
+
+  .modal-button {
+    width: 60%;
+  }
 }

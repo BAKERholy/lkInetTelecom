@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Личный Кабинет Инет-Телеком</title>
     <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./cards.css" />
+    <link rel="stylesheet" href="./payments.css" />
     <link rel="stylesheet" href="./navigation.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +16,7 @@
     />
   </head>
   <body>
-    <div class="bg-color full-screen">
+    <div class="bg-color full-content">
       <header class="header-main">
         <button class="navigation__toggle" type="button"></button>
       </header>
@@ -54,24 +54,35 @@
         </p>
       </nav>
       <section class="tarif">
-        <a class="tarif_block-phone" href="tel:+74950854501"
-          >+7(495)085-45-01</a
-        >
-        <div class="tarif_block-balance">
-          <p>Баланс:</p>
-          <p>690,00 ₽</p>
+        <div class="tarif_block">
+          <a class="tarif_block-phone" href="tel:+74950854501"
+            >+7(495)085-45-01</a
+          >
+          <div class="tarif_block-balance">
+            <p>Баланс:</p>
+            <p>690,00 ₽</p>
+          </div>
+          <div class="tarif_block-info">
+            <p class="tarif_block-text">Ваш тариф:</p>
+            <p class="tarif_block-right">Базовый</p>
+          </div>
+          <div class="tarif_block-info">
+            <p class="tarif_block-text">
+              Абонентская<br />
+              плата:
+            </p>
+            <p class="tarif_block-right">690,00 ₽</p>
+          </div>
+          <div class="tarif_block-info">
+            <p class="tarif_block-text">
+              Добровальная<br />
+              блокировка:
+            </p>
+            <button class="tarif_block-right tarif_block-button">
+              Блокировать
+            </button>
+          </div>
         </div>
-        <div class="tarif_block-info">
-          <p class="tarif_block-text">Ваш тариф:</p>
-          <p class="tarif_block-right">Базовый</p>
-        </div>
-        <div class="tarif_block-info">
-          <p class="tarif_block-text">Абонентская плата:</p>
-          <p class="tarif_block-right">690,00 ₽</p>
-        </div>
-        <div class="tarif_block-blocking"></div>
-        <p class="tarif_block-blocking-text">Добровальная блокировка</p>
-        <button class="tarif_block-button">Блокировать</button>
       </section>
       <div class="container">
         <section class="home">
@@ -83,26 +94,32 @@
 
         <section class="payments">
           <h2 class="payments_title">Выберите способ оплаты:</h2>
-          <div class="cards_links">
-            <a href="">
-              <div class="card">
-                <img src="./img/mobimoney.svg" alt="mobimoney" />
-              </div>
-            </a>
-            <a href="">
-              <div class="card">
-                <img src="./img/sberpay.svg" alt="sberpay" />
-              </div>
-            </a>
-            <a href="">
-              <div class="card">
-                <img src="./img/qiwipay.svg" alt="qiwipay" />
-              </div>
-            </a>
-            <a href="">
-              <div class="card">
-                <img src="./img/unitellerpay.svg" alt="unitellerpay" />
-              </div>
+          <div class="payment">
+            <div class="cards_links">
+              <a href="">
+                <div class="card">
+                  <img src="./img/mobimoney.svg" alt="mobimoney" />
+                </div>
+              </a>
+              <a href="">
+                <div class="card">
+                  <img src="./img/sberpay.svg" alt="sberpay" />
+                </div>
+              </a>
+              <a href="">
+                <div class="card">
+                  <img src="./img/qiwipay.svg" alt="qiwipay" />
+                </div>
+              </a>
+              <a href="">
+                <div class="card">
+                  <img src="./img/unitellerpay.svg" alt="unitellerpay" />
+                </div>
+              </a>
+            </div>
+            <a href="" class="promised_link">
+              Обещанный <br />
+              платеж
             </a>
           </div>
         </section>

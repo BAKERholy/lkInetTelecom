@@ -219,6 +219,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .home_text {
@@ -358,7 +359,8 @@ img {
   }
   .full-screen {
     height: 100%;
-    padding: 10%;
+    width: unset;
+    padding: 0 10px;
   }
 
   .full-screen::after {
@@ -371,17 +373,25 @@ img {
   }
 
   .tarif {
-    position: unset;
+    position: relative;
     width: 100%;
     border: none;
     box-shadow: none;
     background-color: transparent;
+    padding: 0;
+  }
+
+  .tarif::after {
+    width: 30px;
+    height: 30px;
+    top: 10%;
+    right: 12%;
   }
 
   .tarif_block-balance {
-    margin: 10px auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
     min-width: 100px;
-    width: 60%;
     height: 50px;
   }
 

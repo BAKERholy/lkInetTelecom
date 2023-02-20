@@ -149,6 +149,21 @@ img {
   align-items: center;
 }
 
+.home_buttons a {
+  position: relative;
+}
+
+.home_buttons a::after {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  width: 80px;
+  height: 98px;
+  background-image: url("./img/arrow.svg");
+  background-repeat: no-repeat;
+}
+
 .home_link img {
   width: 60px;
   height: 60px;
@@ -249,6 +264,18 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.home_id::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 375px;
+  height: 375px;
+  background-image: url("./img/spiral.svg");
+  background-repeat: no-repeat;
 }
 
 .home_id p {
@@ -444,5 +471,9 @@ img {
 
   .modal-button {
     width: 60%;
+  }
+
+  .home_id::after {
+    display: none;
   }
 }
